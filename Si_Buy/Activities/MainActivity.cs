@@ -36,8 +36,8 @@ namespace Si_Buy
                 case Resource.Id.navigation_home:
                     textMessage.SetText(Resource.String.title_home);
                     return true;
-                case Resource.Id.navigation_dashboard:
-                    textMessage.SetText(Resource.String.title_dashboard);
+                case Resource.Id.navigation_location:
+                    textMessage.SetText(Resource.String.title_location);
                     return true;
                 case Resource.Id.navigation_profile:
                     textMessage.SetText(Resource.String.title_profile);
