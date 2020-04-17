@@ -61,7 +61,10 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\ItemActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Activities\LocationActivity.cs" />
+    <Compile Include="Activities\UserActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -130,11 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\item_layout.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\home_layout.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
